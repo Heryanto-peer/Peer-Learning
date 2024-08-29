@@ -1,0 +1,28 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fuzzy-app-1a834",
+          "configurations": {
+            "web": "1:690760765225:web:48e24df0ce023bb7dcf138"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "/build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

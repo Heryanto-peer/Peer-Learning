@@ -1,0 +1,63 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build artifacts, and output
+*.test
+*.out
+
+# Go workspace files
+*.log
+
+# Directories for dependencies
+vendor/
+Godeps/
+
+# Output of the build process
+bin/
+build/
+
+# IDE specific files (optional, based on your IDE)
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other common ignore patterns
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.cache
+*.gz
+*.zip
+
+# Ignore the output of the go tools
+*.prof
+*.pb.go
+
+# Ignore coverage data
+*.cover
+coverage/
+*.cov
+*.coverage
+
+# Cgo generated files
+*.cgo1.go
+*.cgo2.c
+
+# Go workspace layout files
+go.work
+go.work.sum
+
+.serverless
+.env
+assets/

@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  flutter-web:
+    build: .
+    ports:
+      - "8081:8081" # Map port 8081 di container ke port 8081 di host
